@@ -19,7 +19,7 @@ h1 {
     margin-top: 0px;
     margin-bottom: 80px;
     box-shadow:-1px 6px 5px 0px #CED3C9;
-    
+    position: sticky;
 }
 
 .cartaBatman {
@@ -154,6 +154,7 @@ box-shadow: -7px 7px 5px 0px #CED3C9;
     box-sizing: border-box;
     border-radius: 50%;
     position: relative;
+    margin-bottom: 400px;
 }
 
 .imgPerfilSuperman{
@@ -195,4 +196,22 @@ box-sizing: border-box;
 background-color: #e8e9eb;
 position: absolute;
 box-shadow: -7px 7px 5px 0px #CED3C9;
+}
+
+footer{
+    background-color:#3489eb;
+    text-align: center; 
+    color: white;
+    margin-bottom: 0%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 20px;
+}
+.gitHub {
+    position:relative;
+    left: 350px;
+    text-align: right;
+    font-size: 45px;
+    font-weight: bolder;
+    
 }
